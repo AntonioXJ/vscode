@@ -25,6 +25,7 @@ interface DidApplyRefactoringCommand_Args {
 	readonly codeAction: InlinedCodeAction
 }
 
+// TODO: fix this!
 class DidApplyRefactoringCommand implements Command {
 	public static readonly ID = '_typescript.didApplyRefactoring';
 	public readonly id = DidApplyRefactoringCommand.ID;
